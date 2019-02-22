@@ -1,0 +1,87 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+p {
+	clear: right;
+	text-align:  justify;
+	font-size: 14px;
+}
+ h1 {
+ 	font-size: 24px;
+ 	text-align: center;
+ 	font-family: "Trebuchet MS", Helvetica, sans-serif;
+ 	font-weight: 300;
+
+ }
+ h3{
+ 	text-align: center;
+ 	border: 1px solid black;
+ 	text-anchor: auto;
+ 	width: 100px;
+	float: right;
+	display: inline;
+	margin-top: 0;
+}
+
+section{
+	box-sizing: border-box;
+	width: 30%;
+	background-color: #e6e2d3;
+	border: 1px solid black;
+	float:left;
+	margin-left: 20px;
+}
+/*Desktop size*/
+@media (min-width: 992px){
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+}
+
+/*Tablet view*/
+@media (min-width: 768px) and (max-width: 991px){
+#section1, #section2{
+width: 45%;
+height: 50%
+margin-bottom: 10%;
+margin-left: 2%;
+margin-right: 2%;
+}
+
+#section3{
+margin-top: 5%;
+width: 94%;
+height: 50%;	
+}
+}
+
+/*Mobile size*/
+@media (max-width: 767px){
+#section1, #section2, #section3{
+width:90%;
+height:30%;
+margin-bottom: 20px;
+}
+
+}
+
+
+#t1
+{
+	 background-color: #eca1a6;
+	 color: black;
+}
+#t2
+{
+	 background-color: #ff0000;
+	 color: white;
+
+}
+#t3
+{
+	 background-color: #ffef96;
+	 color: black;
+}
