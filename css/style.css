@@ -49,7 +49,14 @@ height: 50%
 margin-bottom: 10%;
 margin-left: 2%;
 margin-right: 2%;
+
 }
+
+p{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
 
 #section3{
 margin-top: 5%;
@@ -64,6 +71,12 @@ height: 50%;
 width:90%;
 height:30%;
 margin-bottom: 20px;
+
+}
+
+p{
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 }
